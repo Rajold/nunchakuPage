@@ -109,7 +109,7 @@ h2 {
     -webkit-box-shadow: rgb(150,150,150) 5px 5px;
     box-shadow: rgb(150,150,150) 5px 5px;
     overflow: auto;
-    border-style: dashed solid;
+    border-style: dashed groove none dotted;
    border-width: 1px;
    border-color: #f6b803;
 }
