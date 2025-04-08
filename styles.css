@@ -38,6 +38,8 @@ h2 {
 .nlogo:hover {
     clip-path: 50%;
     scale: 1.2;
+    transform: rotate3d(1, 1, 1, -15deg);
+
 }
 
 .npic{
@@ -76,7 +78,9 @@ ul {
 .navLink {
     display: inline-block;
     color: #dddada;
-    margin: auto;
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #54595f 0%, #000 100%);
+    margin: 1px;
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 4px;
@@ -214,7 +218,8 @@ table {
 }
 
 #foot{
-    background-color: #54595f;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #54595f 20%, #000 80%);
     clear: both;
     text-align: center;
     padding: 20px;
